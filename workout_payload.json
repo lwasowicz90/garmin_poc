@@ -1,0 +1,55 @@
+{
+    "sportType": {
+        "sportTypeId": 1,
+        "sportTypeKey": "running",
+        "displayOrder": 1
+    },
+    "subSportType": null,
+    "workoutName": "Trening Test Python",
+    "estimatedDistanceUnit": {
+        "unitKey": null
+    },
+    "workoutSegments": [
+        {
+            "segmentOrder": 1,
+            "sportType": {
+                "sportTypeId": 1,
+                "sportTypeKey": "running",
+                "displayOrder": 1
+            },
+            "workoutSteps": [
+                {
+                    "stepId": 2,
+                    "stepOrder": 1,
+                    "stepType": {
+                        "stepTypeId": 3,
+                        "stepTypeKey": "interval",
+                        "displayOrder": 3
+                    },
+                    "type": "ExecutableStepDTO",
+                    "endCondition": {
+                        "conditionTypeId": 4,
+                        "conditionTypeKey": "calories",
+                        "displayOrder": 4,
+                        "displayable": true
+                    },
+                    "endConditionValue": 350,
+                    "preferredEndConditionUnit": null,
+                    "targetType": {
+                        "workoutTargetTypeId": 4,
+                        "workoutTargetTypeKey": "heart.rate.zone",
+                        "displayOrder": 4
+                    },
+                    "zoneNumber": 3,
+                    "targetValueUnit": null,
+                    "description": "this is test",
+                    "stepAudioNote": null
+                }
+            ]
+        }
+    ],
+    "avgTrainingSpeed": 2.5948890522457804,
+    "estimatedDurationInSecs": 0,
+    "estimatedDistanceInMeters": 0,
+    "estimateType": null
+}
